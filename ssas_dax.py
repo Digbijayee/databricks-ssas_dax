@@ -7,10 +7,10 @@ def get_powerbi_token(tenant_id , client_id, client_secret, username, password):
 
   resource = "https://analysis.windows.net/powerbi/api"
   data = {
-    'grant_type': 'password'
-    'client_id': client_id
-    'client_secret': client_secret
-    'username': username
+    'grant_type': 'password',
+    'client_id': client_id,
+    'client_secret': client_secret,
+    'username': username,
     'password': password
  }
 
